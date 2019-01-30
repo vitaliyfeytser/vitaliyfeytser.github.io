@@ -1,0 +1,26 @@
+.media {
+    flex-flow: wrap;
+}
+
+#my-pic {
+    width: 12em;
+    margin-bottom: 1em; 
+}
+
+
+/* PORTFOLIO - CARDS */
+
+.row {
+    margin-top: 1em;
+}
+
+
+#all-cards {
+    justify-content: space-evenly;
+    /* align-content: space-between; */
+}
+
+.card {
+    width: 18em;
+    margin-bottom: 2em;
+}

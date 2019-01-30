@@ -16,11 +16,13 @@
 
 </head>
 
+
 <!-- BACKGROUND IMAGE -->
 <!-- <body style="background-image:url(assets/images/light-grey-terrazzo.png)"> -->
 
 <body class="p-3 mb-2 bg-dark text-secondary">
-    
+
+
     <!-- BOOTSTRAP NAVBAR -->
     <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -77,27 +79,23 @@
 
     <!-- BOOTSTRAP JUMBOTRON -->
     <div class="container">
-    <div class="col-12">
-        <div class="jumbotron">
-            <h1 class="display-4">About Me</h1>
-            <p class="lead">Ukrainian born and California minted full-stack developer.</p>
-            <hr class="my-4">
-            <div class="media">
-                <img id="my-pic" class="align-self-start mr-3" src="assets/images/Vitaliy.jpeg" alt="Generic placeholder image">
-                <div class="media-body">
-                <!-- <h5 class="mt-0">Top-aligned media</h5> -->
-                    <p>
-                        My name is Vitaliy and I am a happy owner of two dogs and a cat. The youngest dog is a beautiful Terrier-mix female. She's trouble. The second dog is named Ugly, but he's actually cute. He's a half-breed Chihuahua in a bad need of an attitude adjustment. The third is the cutest because she is a cat. Shallan is named after a fictional princess, and she definitely carries like one too.
-                    </p>
-                    <p>
-                        Ukraine is my birth country, but since age 11 I lived in the United States. I met and married my Russian wife Lily here in the sunny California.
-                    </p>
-                    <p>
-                        Computers and coding have always been an undercurrent of my life. I am psyched to be at the UC Davis Coding Bootcamp finally learning the indepth skills to code professionally.
-                    </p>
+    <div class="col-12  col-sm-12 col-md-6"">
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Your Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Please enter your name..">
                 </div>
-            </div>
-        </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Your Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type your message here.."></textarea>
+                </div>
+            </form>
+            
+            <a href="#" class="btn btn-primary">Submit</a>
     </div>
 </div>
 
