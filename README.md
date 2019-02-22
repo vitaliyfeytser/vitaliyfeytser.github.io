@@ -1,1 +1,3 @@
-Vitaliy Feytser's Evolving Portfolio of Development Works.
+
+Vitaliy Feytser's evolving portfolio of development works.
+
