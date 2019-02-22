@@ -7,13 +7,22 @@
     <title>About Me</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
+    <!-- CUSTOM JS -->
+    <script src="./assets/js/hw-dropdown.js"></script>
 </head>
 
 
@@ -22,126 +31,148 @@
 
 <body class="p-3 mb-2 bg-dark text-secondary">
 
-<!-- BOOTSTRAP NAVBAR -->
-<div class="container">
+    <!-- BOOTSTRAP NAVBAR -->
+    <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="./index.html">Vitaliy Feytser</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Homework Links
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="https://vitaliyfeytser.github.io/hw1/index.html" target="_blank">hw1 - Basic Portfolio</a>
-                        <a class="dropdown-item" href="https://github.com/vitaliyfeytser/hw1" target="_blank">hw1 GitHub - Basic Portfolio</a>
-    
-                        <a class="dropdown-item" href="https://vitaliyfeytser.github.io/hw2a/index.html" target="_blank">hw2a - Basic Portfolio - Flexbox & Media Queries</a>
-                        <a class="dropdown-item" href="https://github.com/vitaliyfeytser/hw2a" target="_blank">hw2a GitHub - Basic Portfolio - Flexbox & Media Queries</a>
-    
-                        <a class="dropdown-item" href="https://vitaliyfeytser.github.io/hw2b/index.html" target="_blank">hw2b - Basic Portfolio - Bootstrap</a>
-                        <a class="dropdown-item" href="https://github.com/vitaliyfeytser/hw2b" target="_blank">hw2b GitHub - Basic Portfolio - Bootstrap</a>
-    
-                        <a class="dropdown-item" href="https://vitaliyfeytser.github.io/word-guess-game/index.html" target="_blank">hw3 - Word-Guess-Game</a>
-                        <a class="dropdown-item" href="https://github.com/vitaliyfeytser/word-guess-game" target="_blank">hw3 GitHub - Word-Guess-Game</a>
-   
-                        <a class="dropdown-item" href="https://vitaliyfeytser.github.io/unit-4-game/index.html" target="_blank">hw4 - CrystalsCollector Game</a>
-                        <a class="dropdown-item" href="https://github.com/vitaliyfeytser/unit-4-game" target="_blank">hw4 GitHub - CrystalsCollector Game</a>
-                                
-                        <a class="dropdown-item" href="https://vitaliyfeytser.github.io/hw2b/index.html" target="_blank">hw5 - Timed Trivia</a>
-                        <a class="dropdown-item" href="https://github.com/vitaliyfeytser/hw2b" target="_blank">hw5 GitHub - Timed Trivia</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#" style="color:rgb(112, 112, 112)">Current - hw2b - Basic Portfolio - Bootstrap</a>
-                    </div>
-                </li>
-                <!-- <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Homework Links
+                        </a>
+                        <div id="hw-dropdown-list" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- THIS LIST WILL POPULATE FROM hw-dropdown.js -->
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Disabled</a>
+                            </li> -->
                 </ul>
             </div>
         </nav>
     </div>
-</div>
 
 
+    <!-- BOOTSTRAP CARDS -->
+    <div class="container">
 
-        <!-- BOOTSTRAP CARDS -->
-        <div class="container">
+        <div id="all-cards" class="row">
 
-            <div id="all-cards" class="row">
-                                
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/crystalscollector.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">CrystalsCollector Game</h5>
-                        <p class="card-text">A beautiful number guessing game.</p>
-                        <a href="https://vitaliyfeytser.github.io/unit-4-game/index.html" target="_blank" class="btn btn-primary">Check it out!</a>
-                    </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/crystalscollector.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">CrystalsCollector Game</h5>
+                    <p class="card-text">A beautiful number guessing game.</p>
+                    <a href="https://vitaliyfeytser.github.io/unit-4-game/index.html" target="_blank"
+                        class="btn btn-primary">Check it out!</a>
                 </div>
-
-                <div class="card" >
-                    <img class="card-img-top" src="./assets/images/manhattan.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Central Park</h5>
-                      <p class="card-text">New York, NY</p>
-                      <a href="#" class="btn btn-primary">Check it out!</a>
-                    </div>
-                </div>
-                
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/sunset.jpg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Sister and Sunset</h5>
-                      <p class="card-text">San Diego, CA</p>
-                      <a href="#" class="btn btn-primary">Check it out!</a>
-                    </div>
-                </div>
-                
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/liberty.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Lady Liberty</h5>
-                      <p class="card-text">New York, NY</p>
-                      <a href="#" class="btn btn-primary">Check it out!</a>
-                    </div>
-                </div>
-                
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/storm-trooper.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Storm-Trooper</h5>
-                      <p class="card-text">Shawnee, VA</p>
-                      <a href="#" class="btn btn-primary">Check it out!</a>
-                    </div>
-                </div>
-                
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="./assets/images/daisy.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">My Pup Daisy</h5>
-                      <p class="card-text">Citrus Heights, CA</p>
-                      <a href="#" class="btn btn-primary">Check it out!</a>
-                    </div>
-                </div>
-
-
             </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/gifTastic.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">GitTastic</h5>
+                    <!-- <h5 class="card-title">World-Portal</h5> -->
+                    <p class="card-text">A gif generator with a category button creator.</p>
+                    <a href="https://vitaliyfeytser.github.io/GifTastic/" target="_blank" class="btn btn-primary">Check
+                        it out!</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/train-3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Train Schedule</h5>
+                    <!-- <h5 class="card-title">World-Portal</h5> -->
+                    <p class="card-text">A train schedule creator using MomentJS and Google Firebase.</p>
+                    <a href="https://vitaliyfeytser.github.io/train-schedule/" target="_blank"
+                        class="btn btn-primary">Check it out!</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/sci-fi-fantasy-3.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Sci-Fi & Fantasy
+                        <br> World-Portal</h5>
+                    <!-- <h5 class="card-title">World-Portal</h5> -->
+                    <p class="card-text">A sci-fi and fantasy reading recomendation and search portal that allows users
+                        to establish an account and save their favorite works.</p>
+                    <a href="https://vitaliyfeytser.github.io/bootcamp-p1/index.html" target="_blank"
+                        class="btn btn-primary">Check it out!</a>
+                </div>
+            </div>
+            <!-- 
+            <div class="card">
+                <img class="card-img-top" src="./assets/images/manhattan.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Central Park</h5>
+                    <p class="card-text">New York, NY</p>
+                    <a href="#" class="btn btn-primary">Check it out!</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/sunset.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Sister and Sunset</h5>
+                    <p class="card-text">San Diego, CA</p>
+                    <a href="#" class="btn btn-primary">Check it out!</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/liberty.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Lady Liberty</h5>
+                    <p class="card-text">New York, NY</p>
+                    <a href="#" class="btn btn-primary">Check it out!</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/storm-trooper.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Storm-Trooper</h5>
+                    <p class="card-text">Shawnee, VA</p>
+                    <a href="#" class="btn btn-primary">Check it out!</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/daisy.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">My Pup Daisy</h5>
+                    <p class="card-text">Citrus Heights, CA</p>
+                    <a href="#" class="btn btn-primary">Check it out!</a>
+                </div>
+            </div> -->
+
 
         </div>
 
     </div>
 
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">Designed and deployed by Vitaliy Feytser @ the UC Davis Coding Bootcamp. All rights
+                reserved.<br>vitaliyfeytser@gmail.com</p>
+        </div>
+    </footer>
 
 </body>

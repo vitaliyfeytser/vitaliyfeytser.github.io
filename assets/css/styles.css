@@ -24,3 +24,25 @@
     width: 18em;
     margin-bottom: 2em;
 }
+
+.github-img {
+    height: 1em;
+    opacity: .5;
+    margin-right: 1em;
+    z-index: 900;
+}
+
+.github-img:hover {
+    opacity: 1;
+}
+
+#dropdown-hw-name {
+    text-decoration: none;
+    color: black;
+
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+}
