@@ -34,12 +34,26 @@
 
 .github-img:hover {
     opacity: 1;
+    transform: scale(1.1);
 }
 
 #dropdown-hw-name {
     text-decoration: none;
     color: black;
 
+}
+
+.contact-icons {
+    height: 2em;
+    margin: .5em;
+    opacity: .5;
+}
+
+.contact-icons:hover {
+    /* height: 2.1em; */
+    transform: scale(1.1);
+    margin: .5em;
+    opacity: 1;
 }
 
 .footer {
