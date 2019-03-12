@@ -1,6 +1,11 @@
 
-Vitaliy Feytser's evolving portfolio of development works.
+**Vitaliy Feytser's evolving portfolio of development works.**
 
-<div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>
+Icon made from Icon Fonts is licensed by CC BY 3.0
+http://www.onlinewebfonts.com/icon
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+Icons made by Dave Gandy from https://www.flaticon.com/ and is licensed by http://creativecommons.org/licenses/by/3.0/ 
+BY https://www.flaticon.com/authors/dave-gandy
+
+YouTube icon by:
+https://www.iconfinder.com/icons/771382/channel_circle_logo_media_social_video_youtube_icon
