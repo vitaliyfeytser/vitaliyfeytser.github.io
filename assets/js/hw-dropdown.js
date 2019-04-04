@@ -84,8 +84,8 @@ var homeWork = [
     {
         hwNumber: "11",
         hwName: "Word-Guess CLI",
-        githubRepoLink: "https://github.com/vitaliyfeytser/",
-        liveLink: "",
+        githubRepoLink: "https://github.com/vitaliyfeytser/node-word-guess",
+        liveLink: "https://youtu.be/sFcikICzfJ0",
         liveLinkImage: "assets/images/github-sign.png",
         demoImage: "assets/images/youtube-icon-rect.png",
         description: "A fun word guessing CLI app."
