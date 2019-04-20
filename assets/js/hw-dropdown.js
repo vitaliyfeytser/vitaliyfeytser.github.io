@@ -90,6 +90,14 @@ var homeWork = [
         demoImage: "assets/images/youtube-icon-rect.png",
         description: "A fun word guessing CLI app."
     },
+    {
+        hwNumber: "12",
+        hwName: "Eat-Da-Burger",
+        githubRepoLink: "https://github.com/vitaliyfeytser/burger",
+        liveLink: "https://eat-da-burger-handlebars.herokuapp.com/",
+        liveLinkImage: "assets/images/github-sign.png",
+        description: "This is an exaple of database manipulation through a Handlebars interface. Enjoy."
+    },
 ]
 
 // this code creates the homework dropdown menu items
