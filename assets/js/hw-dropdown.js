@@ -54,7 +54,7 @@ var homeWork = [
         githubRepoLink: "https://github.com/vitaliyfeytser/GifTastic",
         liveLink: "https://vitaliyfeytser.github.io/GifTastic/",
         liveLinkImage: "assets/images/github-sign.png",
-        description: "A gif generator with a category button creator."
+        description: "A gif generator with a button creator for custom categories."
     },
     {
         hwNumber: "8",
