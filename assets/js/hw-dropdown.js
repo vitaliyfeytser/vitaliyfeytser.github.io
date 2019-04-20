@@ -103,7 +103,7 @@ var homeWork = [
 // this code creates the homework dropdown menu items
 $(document).ready(function () {
 
-    for (i = 0; i < homeWork.length; i++) {
+    for (i = 0; i <= homeWork.length; i++) {
 
         $('<div>', {
             class: 'dropdown-item'
