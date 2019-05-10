@@ -98,6 +98,14 @@ var homeWork = [
         liveLinkImage: "assets/images/github-sign.png",
         description: "This is an exaple of database manipulation through a Handlebars interface. Enjoy."
     },
+    {
+        hwNumber: "14",
+        hwName: "News-Scraper",
+        githubRepoLink: "https://github.com/vitaliyfeytser/news-scraper",
+        liveLink: "https://news-scraper-ucdcb.herokuapp.com/",
+        liveLinkImage: "assets/images/github-sign.png",
+        description: "This is a 'scaper' app that scrapes articles from another website and stores them in a database. A user can leave and delete comments."
+    },
 ]
 
 // this code creates the homework dropdown menu items
